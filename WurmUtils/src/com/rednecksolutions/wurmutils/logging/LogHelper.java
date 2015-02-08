@@ -1,14 +1,9 @@
 package com.rednecksolutions.wurmutils.logging;
 
 import java.io.File;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.apache.commons.io.input.Tailer;
 import org.apache.commons.io.input.TailerListener;
-
-import com.rednecksolutions.wurmutils.config.Constants;
 
 public class LogHelper
 {
