@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Sealed: true
+Class-Path: lib/commons-io-2.4.jar lib/commons-logging-1.1.1.jar lib/twitter4j-core-4.0.2.jar
+Main-Class: com.rednecksolutions.wurmutils.RunUtilites
+
