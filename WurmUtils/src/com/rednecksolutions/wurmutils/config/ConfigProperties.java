@@ -29,10 +29,6 @@ public class ConfigProperties
 			try
 			{
 				configProperties = new Properties();
-				configProperties.setProperty(Constants.PROPERTY_TWITTER_ACCESSTOKEN, "");
-				configProperties.setProperty(Constants.PROPERTY_TWITTER_ACCESSTOKENSECRET, "");
-				configProperties.setProperty(Constants.PROPERTY_TWITTER_CONSUMERKEY, "");
-				configProperties.setProperty(Constants.PROPERTY_TWITTER_CONSUMERSECRET, "");
 				configProperties.setProperty(Constants.PROPERTY_WURM_DIRECTORY, "");
 				configProperties.setProperty(Constants.PROPERTY_WURM_CHARACTER, "");
 				
@@ -52,10 +48,6 @@ public class ConfigProperties
 				configProperties = new Properties();
 				configProperties.load(is);
 				
-				Constants.TWITTER_ACCESSTOKEN = configProperties.getProperty(Constants.PROPERTY_TWITTER_ACCESSTOKEN);
-				Constants.TWITTER_ACCESSTOKENSECRET = configProperties.getProperty(Constants.PROPERTY_TWITTER_ACCESSTOKENSECRET);
-				Constants.TWITTER_CONSUMERKEY = configProperties.getProperty(Constants.PROPERTY_TWITTER_CONSUMERKEY);
-				Constants.TWITTER_CONSUMERKEYSECRET = configProperties.getProperty(Constants.PROPERTY_TWITTER_CONSUMERSECRET);
 				Constants.WURM_DIRECTORY = configProperties.getProperty(Constants.PROPERTY_WURM_DIRECTORY);
 				Constants.WURM_CHARACTER = configProperties.getProperty(Constants.PROPERTY_WURM_CHARACTER);
 				Constants.WURM_FULLPATH = Constants.WURM_DIRECTORY+"\\players\\"+Constants.WURM_CHARACTER+"\\logs\\";

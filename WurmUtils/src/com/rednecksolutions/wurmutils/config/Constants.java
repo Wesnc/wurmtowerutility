@@ -34,14 +34,7 @@ public class Constants
 	//PROPERY File Config
 	public static String PROPERTIES_FILENAME = "config.properties";
 	public static String PROPERTIES_DIR = USER_HOME+USER_OS_SEP+"WurmUtils"+USER_OS_SEP;
-	public static String PROPERTY_TWITTER_CONSUMERKEY = "twitter.consumer.key";
-	public static String PROPERTY_TWITTER_CONSUMERSECRET = "twitter.consumer.secret";
-	public static String PROPERTY_TWITTER_ACCESSTOKEN = "twitter.token";
-	public static String PROPERTY_TWITTER_ACCESSTOKENSECRET = "twitter.token.secret";
 	public static String PROPERTY_WURM_DIRECTORY = "wurm.dir";
 	public static String PROPERTY_WURM_CHARACTER = "wurm.character";
-	
-	//URL
-	public static String URL_MOTD = "https://dl.dropboxusercontent.com/u/1379367/Files/jar/WurmTwitterUtility/msg.txt";
 	
 }
