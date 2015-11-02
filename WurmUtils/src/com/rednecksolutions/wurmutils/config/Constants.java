@@ -3,7 +3,7 @@ package com.rednecksolutions.wurmutils.config;
 
 public class Constants 
 {
-	public static String VERSION = "0.0.1";
+	public static String VERSION = "0.0.2b";
 	
 	//HOME VARIABLES
 	public static String USER_OS = System.getProperty("os.name").toLowerCase();
@@ -12,11 +12,13 @@ public class Constants
 	
 	//Debug Variables
 	public static boolean DEBUG = true;
+	public static boolean DEBUG_TWITTER = true;
 	
 	//LogHelper Vars
 	public static boolean TAILER_VERBOSE = false;
 	public static String TAILER_BASHMSG = "Guard tower of (\\w+ \\d+) is under attack!";
 	
+	public static boolean TWITTER_ENABLED = true;
 	public static String TWITTER_CONSUMERKEY = "";
 	public static String TWITTER_CONSUMERKEYSECRET = "";
 	public static String TWITTER_ACCESSTOKEN = "";

@@ -26,7 +26,7 @@ public class RunUtilites
 	
 	public static void main(String[] args)
 	{
-		System.out.println("\n----- Wesnc's Logging Util Version: "+Constants.VERSION+" -----\n");
+		System.out.println("\n----- Tower Basher Utility: "+Constants.VERSION+" -----\n");
 		
 		if(Constants.WURM_DIRECTORY.length() == 0)
 		{
@@ -54,7 +54,7 @@ public class RunUtilites
 				{
 					System.out.println("Initializing Twatter...");
 					twitter = new TwitterUtil();
-					twitter.postToTwitter("Tower Utility initialized ("+new Random().nextInt(100)+")");
+					twitter.postToTwitter("Tower Utility initialized ("+new Random().nextInt(100)+") Version: "+Constants.VERSION);
 					
 					while(true)
 					{
@@ -66,7 +66,7 @@ public class RunUtilites
 							
 							if(m.find())
 							{
-								RunUtilites.twitter.postToTwitter("Warning!! Tower: "+m.group(1)+" is being bashed!!");
+								RunUtilites.twitter.postToTwitter("Warning!! Tower: "+m.group(1)+" is being bashed!! (RandomInt:"+new Random().nextInt(100));
 								lines.remove(line);
 								
 								break;
