@@ -32,4 +32,4 @@ Required access token that can be found in your Twitter application
 Required access token secret that can be found in your Twitter application
 
 ## License
-This project is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License.] (http://creativecommons.org/licenses/by-nc/4.0/) You are allowed to resume working on this project, without the need to release your source code. Under no circumstances are you allowed to distribute this project or a derivative work in source code or binary form, as well as operate a private game server based on this project, for any form of monetary or other compensation.
+This project is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License.] (http://creativecommons.org/licenses/by-nc/4.0/) You are allowed to resume working on this project, without the need to release your source code. Under no circumstances are you allowed to distribute this project or a derivative work in source code or binary form.
